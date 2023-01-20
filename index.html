@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="screen">
+          <div class="content">
+            <div class="header">
+              <span class="options-btn"
+                ><img
+                  src="https://emilcarlsson.se/assets/svg/more.svg"
+                  alt=""
+                  class="svg"
+              /></span>
+            </div>
+            <div class="details-section">
+              <img
+                src="https://i.ibb.co/6HgW7Sx/bass-anthology-preview.jpg"
+                alt="song-cover"
+              />
+              <p class="song-title">Song Title</p>
+              <p class="song-artist">Artist Name</p>
+            </div>
+            <audio crossorigin>
+              <source src="test.mp3" type="audio/mpeg" />
+            </audio>
+            <div class="controls">
+              <span class="previous-btn"
+                ><i class="bx bx-skip-previous"></i
+              ></span>
+              <span class="play-btn"><i class="bx bx-play"></i></span>
+              <span class="next-btn"><i class="bx bx-skip-next"></i></span>
+            </div>
+            <div class="timeline">
+              <div class="time">
+                <span class="current-time">02:25</span>
+                <span class="total-time">05:00</span>
+              </div>
+              <input type="range" min="1" max="100" value="50" class="slider" />
+            </div>
+            <div class="sub-controls">
+              <i class="bx bx-shuffle"></i>
+              <i class="bx bx-sync"></i>
+              <i class="bx bx-repeat"></i>
+              <i class="bx bx-volume-full"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="song-options menu">
+        <span class="close-btn"><span class="icon">&times;</span> Close</span>
+        <div class="song-info">
+          <img
+            src="https://i.ibb.co/6HgW7Sx/bass-anthology-preview.jpg"
+            alt="song-cover"
+          />
+          <div class="details">
+            <p>
+              <span class="title">Song title</span>
+              <span class="artist">Artist name</span>
+            </p>
+          </div>
+        </div>
+        <div class="items">
+          <div class="item">
+            <i class="bx bxs-playlist"></i>
+            Add to playlist
+          </div>
+          <div class="item">
+            <i class="bx bxs-microphone"></i>
+            View Artist
+          </div>
+          <div class="item">
+            <i class="bx bxs-album"></i>
+            View Album
+          </div>
+          <div class="item">
+            <i class="bx bxs-share"></i>
+            Share
+          </div>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
